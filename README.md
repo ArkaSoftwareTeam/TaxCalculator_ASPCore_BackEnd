@@ -43,3 +43,6 @@ The application is organized into two main sections:
    ```bash
    git clone <repository-url>
    cd congestion-tax-calculator
+
+2. **Configure Database:**
+   
