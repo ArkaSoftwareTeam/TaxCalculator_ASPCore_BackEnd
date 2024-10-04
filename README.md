@@ -47,7 +47,20 @@ The application is organized into two main sections:
 2. **Configure Database:**
 - Create a new SQL Server database for the application.
 - Open appsettings.json and update the connection string:
-  `nano`
+  
+  ```bash
    "ConnectionStrings": {
   "DefaultConnection": "Server=your_server;Database=your_database;User Id=your_user;Password=your_password;"
 }
+3. **Set Defualt Project In PackageManageConsole:**
+ - In the management console , set the defualt project to the SRC/Infrastructure/Data/MSSQL/MSSQL.Commands Layer.
+
+4. **Apply Migrations: Run the following command to apply any pending migrations and create the database schema:**
+```bash
+dotnet ef migration add init.
+dotnet ef database update.
+
+4. **Run the Application: Start the API with:**
+dotnet run
+
+
