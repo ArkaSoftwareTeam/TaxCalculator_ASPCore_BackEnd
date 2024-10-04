@@ -42,7 +42,7 @@ The application is organized into two main sections:
 1. **Clone the Repository**:
    ```bash
    git clone <repository-url>
-   cd congestion-tax-calculator
+   cd TaxCalculator_ASPCore_BackEnd
 
 2. **Configure Database:**
 - Create a new SQL Server database for the application.
@@ -56,11 +56,14 @@ The application is organized into two main sections:
  - In the management console , set the defualt project to the SRC/Infrastructure/Data/MSSQL/MSSQL.Commands Layer.
 
 4. **Apply Migrations: Run the following command to apply any pending migrations and create the database schema:**
-```bash
-dotnet ef migration add init.
-dotnet ef database update.
+   ```bash
+     dotnet ef migration add init.
+     dotnet ef database update.
 
-4. **Run the Application: Start the API with:**
-dotnet run
+ 4. **Run the Application: Start the API with:**
+    ```bash
+    dotnet run
 
-
+### Acknowledgments
+- Special thanks to the developers and programmers of Fintra for giving me this inspiration. and cause the development of this program.
+- Acknowledgment of contributors who help maintain and improve the program.
