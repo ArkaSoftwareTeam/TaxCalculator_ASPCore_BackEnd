@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="UserServices\**" />
+    <EmbeddedResource Remove="UserServices\**" />
+    <None Remove="UserServices\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\00.Framework\01.Utilities\CTaxCalculator.Framework.Utilities.OutServices\CTaxCalculator.Framework.Utilities.OutServices.csproj" />
+    <ProjectReference Include="..\..\..\00.Framework\02.Core\CTaxCalculator.Framework.Core.ApplicationServices\CTaxCalculator.Framework.Core.ApplicationServices.csproj" />
+    <ProjectReference Include="..\CTaxCalculator.Src.Core.Contracts\CTaxCalculator.Src.Core.Contracts.csproj" />
+    <ProjectReference Include="..\CTaxCalculator.Src.Core.RequestResponse\CTaxCalculator.Src.Core.RequestResponse.csproj" />
+  </ItemGroup>
+
+</Project>

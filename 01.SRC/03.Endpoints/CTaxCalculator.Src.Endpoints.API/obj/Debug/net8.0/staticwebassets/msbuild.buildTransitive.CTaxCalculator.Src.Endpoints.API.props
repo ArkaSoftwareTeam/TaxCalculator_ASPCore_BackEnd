@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\CTaxCalculator.Src.Endpoints.API.props" />
+</Project>

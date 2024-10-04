@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "yyD9a/LFT/E=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\ArkaSoftware\\source\\repos\\CTaxCalculator\\01.SRC\\01.Core\\CTaxCalculator.Src.Core.RequestResponse\\CTaxCalculator.Src.Core.RequestResponse.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ArkaSoftware\\.nuget\\packages\\arkasoftware.extensions.translations.abstractions\\1.0.0\\arkasoftware.extensions.translations.abstractions.1.0.0.nupkg.sha512",
+    "C:\\Users\\ArkaSoftware\\.nuget\\packages\\fluentvalidation\\11.9.2\\fluentvalidation.11.9.2.nupkg.sha512",
+    "C:\\Users\\ArkaSoftware\\.nuget\\packages\\microsoft.openapi\\1.6.14\\microsoft.openapi.1.6.14.nupkg.sha512",
+    "C:\\Users\\ArkaSoftware\\.nuget\\packages\\swashbuckle.aspnetcore.annotations\\6.8.1\\swashbuckle.aspnetcore.annotations.6.8.1.nupkg.sha512",
+    "C:\\Users\\ArkaSoftware\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.8.1\\swashbuckle.aspnetcore.swagger.6.8.1.nupkg.sha512",
+    "C:\\Users\\ArkaSoftware\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.8.1\\swashbuckle.aspnetcore.swaggergen.6.8.1.nupkg.sha512"
+  ],
+  "logs": []
+}

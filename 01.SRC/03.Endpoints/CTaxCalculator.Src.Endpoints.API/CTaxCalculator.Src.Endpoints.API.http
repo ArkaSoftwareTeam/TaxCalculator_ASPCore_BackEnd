@@ -1,0 +1,6 @@
+@CTaxCalculator.Src.Endpoints.API_HostAddress = http://localhost:5221
+
+GET {{CTaxCalculator.Src.Endpoints.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

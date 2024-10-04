@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\CTaxCalculator.Src.Endpoints.API.props" />
+</Project>

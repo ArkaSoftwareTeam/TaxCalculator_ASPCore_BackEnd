@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "Ze5zspp5HxkMysweccZ1LlUMQlcHSNMQO9FcNYTKjXU=",
+  "Source": "CTaxCalculator.Src.Endpoints.API",
+  "BasePath": "_content/CTaxCalculator.Src.Endpoints.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

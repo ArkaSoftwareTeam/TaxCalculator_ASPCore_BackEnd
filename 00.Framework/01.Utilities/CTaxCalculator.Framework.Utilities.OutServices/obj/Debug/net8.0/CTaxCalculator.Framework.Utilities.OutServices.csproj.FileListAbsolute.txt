@@ -1,0 +1,12 @@
+C:\Users\ArkaSoftware\source\repos\CTaxCalculator\00.Framework\01.Utilities\CTaxCalculator.Framework.Utilities.OutServices\obj\Debug\net8.0\CTaxCalculator.Framework.Utilities.OutServices.csproj.AssemblyReference.cache
+C:\Users\ArkaSoftware\source\repos\CTaxCalculator\00.Framework\01.Utilities\CTaxCalculator.Framework.Utilities.OutServices\obj\Debug\net8.0\CTaxCalculator.Framework.Utilities.OutServices.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ArkaSoftware\source\repos\CTaxCalculator\00.Framework\01.Utilities\CTaxCalculator.Framework.Utilities.OutServices\obj\Debug\net8.0\CTaxCalculator.Framework.Utilities.OutServices.AssemblyInfoInputs.cache
+C:\Users\ArkaSoftware\source\repos\CTaxCalculator\00.Framework\01.Utilities\CTaxCalculator.Framework.Utilities.OutServices\obj\Debug\net8.0\CTaxCalculator.Framework.Utilities.OutServices.AssemblyInfo.cs
+C:\Users\ArkaSoftware\source\repos\CTaxCalculator\00.Framework\01.Utilities\CTaxCalculator.Framework.Utilities.OutServices\obj\Debug\net8.0\CTaxCalculator.Framework.Utilities.OutServices.csproj.CoreCompileInputs.cache
+C:\Users\ArkaSoftware\source\repos\CTaxCalculator\00.Framework\01.Utilities\CTaxCalculator.Framework.Utilities.OutServices\bin\Debug\net8.0\CTaxCalculator.Framework.Utilities.OutServices.deps.json
+C:\Users\ArkaSoftware\source\repos\CTaxCalculator\00.Framework\01.Utilities\CTaxCalculator.Framework.Utilities.OutServices\bin\Debug\net8.0\CTaxCalculator.Framework.Utilities.OutServices.dll
+C:\Users\ArkaSoftware\source\repos\CTaxCalculator\00.Framework\01.Utilities\CTaxCalculator.Framework.Utilities.OutServices\bin\Debug\net8.0\CTaxCalculator.Framework.Utilities.OutServices.pdb
+C:\Users\ArkaSoftware\source\repos\CTaxCalculator\00.Framework\01.Utilities\CTaxCalculator.Framework.Utilities.OutServices\obj\Debug\net8.0\CTaxCalculator.Framework.Utilities.OutServices.dll
+C:\Users\ArkaSoftware\source\repos\CTaxCalculator\00.Framework\01.Utilities\CTaxCalculator.Framework.Utilities.OutServices\obj\Debug\net8.0\refint\CTaxCalculator.Framework.Utilities.OutServices.dll
+C:\Users\ArkaSoftware\source\repos\CTaxCalculator\00.Framework\01.Utilities\CTaxCalculator.Framework.Utilities.OutServices\obj\Debug\net8.0\CTaxCalculator.Framework.Utilities.OutServices.pdb
+C:\Users\ArkaSoftware\source\repos\CTaxCalculator\00.Framework\01.Utilities\CTaxCalculator.Framework.Utilities.OutServices\obj\Debug\net8.0\ref\CTaxCalculator.Framework.Utilities.OutServices.dll

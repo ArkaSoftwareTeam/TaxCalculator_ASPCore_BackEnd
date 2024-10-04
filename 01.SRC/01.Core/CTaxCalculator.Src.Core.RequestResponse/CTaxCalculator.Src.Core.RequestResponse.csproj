@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Users\**" />
+    <EmbeddedResource Remove="Users\**" />
+    <None Remove="Users\**" />
+  </ItemGroup>
+	<ItemGroup>
+		<PackageReference Include="ArkaSoftware.Extensions.Translations.Abstractions" Version="1.0.0" />
+		<PackageReference Include="FluentValidation" Version="11.9.2" />
+		<PackageReference Include="Swashbuckle.AspNetCore.Annotations" Version="6.8.1" />
+	</ItemGroup>
+	<ItemGroup>
+	  <ProjectReference Include="..\..\..\00.Framework\02.Core\CTaxCalculator.Framework.Core.RequestResponse\CTaxCalculator.Framework.Core.RequestResponse.csproj" />
+	</ItemGroup>
+	<ItemGroup>
+	  <Folder Include="ManagementFiles\Queries\" />
+	</ItemGroup>
+</Project>

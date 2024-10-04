@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\..\00.Framework\03.Infrastructure\Data\CTaxCalculator.Framework.Infra.Data.SQLQueries\CTaxCalculator.Framework.Infra.Data.SQLQueries.csproj" />
+    <ProjectReference Include="..\..\..\01.Core\CTaxCalculator.Src.Core.Contracts\CTaxCalculator.Src.Core.Contracts.csproj" />
+    <ProjectReference Include="..\..\..\01.Core\CTaxCalculator.Src.Core.Domain\CTaxCalculator.Src.Core.Domain.csproj" />
+  </ItemGroup>
+
+</Project>

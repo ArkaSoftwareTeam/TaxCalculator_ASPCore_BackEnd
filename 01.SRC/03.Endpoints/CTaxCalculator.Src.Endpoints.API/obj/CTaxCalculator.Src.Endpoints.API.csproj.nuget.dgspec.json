@@ -1,0 +1,1309 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\ArkaSoftware\\source\\repos\\CTaxCalculator\\01.SRC\\03.Endpoints\\CTaxCalculator.Src.Endpoints.API\\CTaxCalculator.Src.Endpoints.API.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\ArkaSoftware\\source\\repos\\CTaxCalculator\\00.Framework\\01.Utilities\\CTaxCalculator.Framework.Utilities.OutServices\\CTaxCalculator.Framework.Utilities.OutServices.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ArkaSoftware\\source\\repos\\CTaxCalculator\\00.Framework\\01.Utilities\\CTaxCalculator.Framework.Utilities.OutServices\\CTaxCalculator.Framework.Utilities.OutServices.csproj",
+        "projectName": "CTaxCalculator.Framework.Utilities.OutServices",
+        "projectPath": "C:\\Users\\ArkaSoftware\\source\\repos\\CTaxCalculator\\00.Framework\\01.Utilities\\CTaxCalculator.Framework.Utilities.OutServices\\CTaxCalculator.Framework.Utilities.OutServices.csproj",
+        "packagesPath": "C:\\Users\\ArkaSoftware\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ArkaSoftware\\source\\repos\\CTaxCalculator\\00.Framework\\01.Utilities\\CTaxCalculator.Framework.Utilities.OutServices\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ArkaSoftware\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "ArkaSoftware.Extensions.Logger.Abstractions": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "ArkaSoftware.Extensions.ObjectMappers.Abstractions": {
+              "target": "Package",
+              "version": "[1.0.1, )"
+            },
+            "ArkaSoftware.Extensions.Serializers.Abstractions": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "ArkaSoftware.Extensions.Translations.Abstractions": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "ArkaSoftware.Extensions.UsersManagement.Abstractions": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Snowflake.Core": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\ArkaSoftware\\source\\repos\\CTaxCalculator\\00.Framework\\02.Core\\CTaxCalculator.Framework.Core.ApplicationServices\\CTaxCalculator.Framework.Core.ApplicationServices.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ArkaSoftware\\source\\repos\\CTaxCalculator\\00.Framework\\02.Core\\CTaxCalculator.Framework.Core.ApplicationServices\\CTaxCalculator.Framework.Core.ApplicationServices.csproj",
+        "projectName": "CTaxCalculator.Framework.Core.ApplicationServices",
+        "projectPath": "C:\\Users\\ArkaSoftware\\source\\repos\\CTaxCalculator\\00.Framework\\02.Core\\CTaxCalculator.Framework.Core.ApplicationServices\\CTaxCalculator.Framework.Core.ApplicationServices.csproj",
+        "packagesPath": "C:\\Users\\ArkaSoftware\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ArkaSoftware\\source\\repos\\CTaxCalculator\\00.Framework\\02.Core\\CTaxCalculator.Framework.Core.ApplicationServices\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ArkaSoftware\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\ArkaSoftware\\source\\repos\\CTaxCalculator\\00.Framework\\01.Utilities\\CTaxCalculator.Framework.Utilities.OutServices\\CTaxCalculator.Framework.Utilities.OutServices.csproj": {
+                "projectPath": "C:\\Users\\ArkaSoftware\\source\\repos\\CTaxCalculator\\00.Framework\\01.Utilities\\CTaxCalculator.Framework.Utilities.OutServices\\CTaxCalculator.Framework.Utilities.OutServices.csproj"
+              },
+              "C:\\Users\\ArkaSoftware\\source\\repos\\CTaxCalculator\\00.Framework\\02.Core\\CTaxCalculator.Framework.Core.Contracts\\CTaxCalculator.Framework.Core.Contracts.csproj": {
+                "projectPath": "C:\\Users\\ArkaSoftware\\source\\repos\\CTaxCalculator\\00.Framework\\02.Core\\CTaxCalculator.Framework.Core.Contracts\\CTaxCalculator.Framework.Core.Contracts.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.9.2, )"
+            },
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\ArkaSoftware\\source\\repos\\CTaxCalculator\\00.Framework\\02.Core\\CTaxCalculator.Framework.Core.Contracts\\CTaxCalculator.Framework.Core.Contracts.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ArkaSoftware\\source\\repos\\CTaxCalculator\\00.Framework\\02.Core\\CTaxCalculator.Framework.Core.Contracts\\CTaxCalculator.Framework.Core.Contracts.csproj",
+        "projectName": "CTaxCalculator.Framework.Core.Contracts",
+        "projectPath": "C:\\Users\\ArkaSoftware\\source\\repos\\CTaxCalculator\\00.Framework\\02.Core\\CTaxCalculator.Framework.Core.Contracts\\CTaxCalculator.Framework.Core.Contracts.csproj",
+        "packagesPath": "C:\\Users\\ArkaSoftware\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ArkaSoftware\\source\\repos\\CTaxCalculator\\00.Framework\\02.Core\\CTaxCalculator.Framework.Core.Contracts\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ArkaSoftware\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\ArkaSoftware\\source\\repos\\CTaxCalculator\\00.Framework\\02.Core\\CTaxCalculator.Framework.Core.Domain\\CTaxCalculator.Framework.Core.Domain.csproj": {
+                "projectPath": "C:\\Users\\ArkaSoftware\\source\\repos\\CTaxCalculator\\00.Framework\\02.Core\\CTaxCalculator.Framework.Core.Domain\\CTaxCalculator.Framework.Core.Domain.csproj"
+              },
+              "C:\\Users\\ArkaSoftware\\source\\repos\\CTaxCalculator\\00.Framework\\02.Core\\CTaxCalculator.Framework.Core.RequestResponse\\CTaxCalculator.Framework.Core.RequestResponse.csproj": {
+                "projectPath": "C:\\Users\\ArkaSoftware\\source\\repos\\CTaxCalculator\\00.Framework\\02.Core\\CTaxCalculator.Framework.Core.RequestResponse\\CTaxCalculator.Framework.Core.RequestResponse.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\ArkaSoftware\\source\\repos\\CTaxCalculator\\00.Framework\\02.Core\\CTaxCalculator.Framework.Core.Domain\\CTaxCalculator.Framework.Core.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ArkaSoftware\\source\\repos\\CTaxCalculator\\00.Framework\\02.Core\\CTaxCalculator.Framework.Core.Domain\\CTaxCalculator.Framework.Core.Domain.csproj",
+        "projectName": "CTaxCalculator.Framework.Core.Domain",
+        "projectPath": "C:\\Users\\ArkaSoftware\\source\\repos\\CTaxCalculator\\00.Framework\\02.Core\\CTaxCalculator.Framework.Core.Domain\\CTaxCalculator.Framework.Core.Domain.csproj",
+        "packagesPath": "C:\\Users\\ArkaSoftware\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ArkaSoftware\\source\\repos\\CTaxCalculator\\00.Framework\\02.Core\\CTaxCalculator.Framework.Core.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ArkaSoftware\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\ArkaSoftware\\source\\repos\\CTaxCalculator\\00.Framework\\02.Core\\CTaxCalculator.Framework.Core.RequestResponse\\CTaxCalculator.Framework.Core.RequestResponse.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ArkaSoftware\\source\\repos\\CTaxCalculator\\00.Framework\\02.Core\\CTaxCalculator.Framework.Core.RequestResponse\\CTaxCalculator.Framework.Core.RequestResponse.csproj",
+        "projectName": "CTaxCalculator.Framework.Core.RequestResponse",
+        "projectPath": "C:\\Users\\ArkaSoftware\\source\\repos\\CTaxCalculator\\00.Framework\\02.Core\\CTaxCalculator.Framework.Core.RequestResponse\\CTaxCalculator.Framework.Core.RequestResponse.csproj",
+        "packagesPath": "C:\\Users\\ArkaSoftware\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ArkaSoftware\\source\\repos\\CTaxCalculator\\00.Framework\\02.Core\\CTaxCalculator.Framework.Core.RequestResponse\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ArkaSoftware\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Swashbuckle.AspNetCore.Annotations": {
+              "target": "Package",
+              "version": "[6.8.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\ArkaSoftware\\source\\repos\\CTaxCalculator\\00.Framework\\03.Infrastructure\\Data\\CTaxCalculator.Framework.Infra.Data.SQLCommands\\CTaxCalculator.Framework.Infra.Data.SQLCommands.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ArkaSoftware\\source\\repos\\CTaxCalculator\\00.Framework\\03.Infrastructure\\Data\\CTaxCalculator.Framework.Infra.Data.SQLCommands\\CTaxCalculator.Framework.Infra.Data.SQLCommands.csproj",
+        "projectName": "CTaxCalculator.Framework.Infra.Data.SQLCommands",
+        "projectPath": "C:\\Users\\ArkaSoftware\\source\\repos\\CTaxCalculator\\00.Framework\\03.Infrastructure\\Data\\CTaxCalculator.Framework.Infra.Data.SQLCommands\\CTaxCalculator.Framework.Infra.Data.SQLCommands.csproj",
+        "packagesPath": "C:\\Users\\ArkaSoftware\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ArkaSoftware\\source\\repos\\CTaxCalculator\\00.Framework\\03.Infrastructure\\Data\\CTaxCalculator.Framework.Infra.Data.SQLCommands\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ArkaSoftware\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\ArkaSoftware\\source\\repos\\CTaxCalculator\\00.Framework\\01.Utilities\\CTaxCalculator.Framework.Utilities.OutServices\\CTaxCalculator.Framework.Utilities.OutServices.csproj": {
+                "projectPath": "C:\\Users\\ArkaSoftware\\source\\repos\\CTaxCalculator\\00.Framework\\01.Utilities\\CTaxCalculator.Framework.Utilities.OutServices\\CTaxCalculator.Framework.Utilities.OutServices.csproj"
+              },
+              "C:\\Users\\ArkaSoftware\\source\\repos\\CTaxCalculator\\00.Framework\\02.Core\\CTaxCalculator.Framework.Core.Contracts\\CTaxCalculator.Framework.Core.Contracts.csproj": {
+                "projectPath": "C:\\Users\\ArkaSoftware\\source\\repos\\CTaxCalculator\\00.Framework\\02.Core\\CTaxCalculator.Framework.Core.Contracts\\CTaxCalculator.Framework.Core.Contracts.csproj"
+              },
+              "C:\\Users\\ArkaSoftware\\source\\repos\\CTaxCalculator\\00.Framework\\02.Core\\CTaxCalculator.Framework.Core.Domain\\CTaxCalculator.Framework.Core.Domain.csproj": {
+                "projectPath": "C:\\Users\\ArkaSoftware\\source\\repos\\CTaxCalculator\\00.Framework\\02.Core\\CTaxCalculator.Framework.Core.Domain\\CTaxCalculator.Framework.Core.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "ArkaSoftware.Extensions.Serializers.Abstractions": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "ArkaSoftware.Extensions.UsersManagement.Abstractions": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\ArkaSoftware\\source\\repos\\CTaxCalculator\\00.Framework\\03.Infrastructure\\Data\\CTaxCalculator.Framework.Infra.Data.SQLQueries\\CTaxCalculator.Framework.Infra.Data.SQLQueries.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ArkaSoftware\\source\\repos\\CTaxCalculator\\00.Framework\\03.Infrastructure\\Data\\CTaxCalculator.Framework.Infra.Data.SQLQueries\\CTaxCalculator.Framework.Infra.Data.SQLQueries.csproj",
+        "projectName": "CTaxCalculator.Framework.Infra.Data.SQLQueries",
+        "projectPath": "C:\\Users\\ArkaSoftware\\source\\repos\\CTaxCalculator\\00.Framework\\03.Infrastructure\\Data\\CTaxCalculator.Framework.Infra.Data.SQLQueries\\CTaxCalculator.Framework.Infra.Data.SQLQueries.csproj",
+        "packagesPath": "C:\\Users\\ArkaSoftware\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ArkaSoftware\\source\\repos\\CTaxCalculator\\00.Framework\\03.Infrastructure\\Data\\CTaxCalculator.Framework.Infra.Data.SQLQueries\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ArkaSoftware\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\ArkaSoftware\\source\\repos\\CTaxCalculator\\00.Framework\\01.Utilities\\CTaxCalculator.Framework.Utilities.OutServices\\CTaxCalculator.Framework.Utilities.OutServices.csproj": {
+                "projectPath": "C:\\Users\\ArkaSoftware\\source\\repos\\CTaxCalculator\\00.Framework\\01.Utilities\\CTaxCalculator.Framework.Utilities.OutServices\\CTaxCalculator.Framework.Utilities.OutServices.csproj"
+              },
+              "C:\\Users\\ArkaSoftware\\source\\repos\\CTaxCalculator\\00.Framework\\02.Core\\CTaxCalculator.Framework.Core.Contracts\\CTaxCalculator.Framework.Core.Contracts.csproj": {
+                "projectPath": "C:\\Users\\ArkaSoftware\\source\\repos\\CTaxCalculator\\00.Framework\\02.Core\\CTaxCalculator.Framework.Core.Contracts\\CTaxCalculator.Framework.Core.Contracts.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\ArkaSoftware\\source\\repos\\CTaxCalculator\\00.Framework\\04.Endpoints\\CTaxCalculator.Framework.Endpoints.Web\\CTaxCalculator.Framework.Endpoints.Web.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ArkaSoftware\\source\\repos\\CTaxCalculator\\00.Framework\\04.Endpoints\\CTaxCalculator.Framework.Endpoints.Web\\CTaxCalculator.Framework.Endpoints.Web.csproj",
+        "projectName": "CTaxCalculator.Framework.Endpoints.Web",
+        "projectPath": "C:\\Users\\ArkaSoftware\\source\\repos\\CTaxCalculator\\00.Framework\\04.Endpoints\\CTaxCalculator.Framework.Endpoints.Web\\CTaxCalculator.Framework.Endpoints.Web.csproj",
+        "packagesPath": "C:\\Users\\ArkaSoftware\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ArkaSoftware\\source\\repos\\CTaxCalculator\\00.Framework\\04.Endpoints\\CTaxCalculator.Framework.Endpoints.Web\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ArkaSoftware\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\ArkaSoftware\\source\\repos\\CTaxCalculator\\00.Framework\\01.Utilities\\CTaxCalculator.Framework.Utilities.OutServices\\CTaxCalculator.Framework.Utilities.OutServices.csproj": {
+                "projectPath": "C:\\Users\\ArkaSoftware\\source\\repos\\CTaxCalculator\\00.Framework\\01.Utilities\\CTaxCalculator.Framework.Utilities.OutServices\\CTaxCalculator.Framework.Utilities.OutServices.csproj"
+              },
+              "C:\\Users\\ArkaSoftware\\source\\repos\\CTaxCalculator\\00.Framework\\02.Core\\CTaxCalculator.Framework.Core.ApplicationServices\\CTaxCalculator.Framework.Core.ApplicationServices.csproj": {
+                "projectPath": "C:\\Users\\ArkaSoftware\\source\\repos\\CTaxCalculator\\00.Framework\\02.Core\\CTaxCalculator.Framework.Core.ApplicationServices\\CTaxCalculator.Framework.Core.ApplicationServices.csproj"
+              },
+              "C:\\Users\\ArkaSoftware\\source\\repos\\CTaxCalculator\\00.Framework\\02.Core\\CTaxCalculator.Framework.Core.Contracts\\CTaxCalculator.Framework.Core.Contracts.csproj": {
+                "projectPath": "C:\\Users\\ArkaSoftware\\source\\repos\\CTaxCalculator\\00.Framework\\02.Core\\CTaxCalculator.Framework.Core.Contracts\\CTaxCalculator.Framework.Core.Contracts.csproj"
+              },
+              "C:\\Users\\ArkaSoftware\\source\\repos\\CTaxCalculator\\00.Framework\\02.Core\\CTaxCalculator.Framework.Core.Domain\\CTaxCalculator.Framework.Core.Domain.csproj": {
+                "projectPath": "C:\\Users\\ArkaSoftware\\source\\repos\\CTaxCalculator\\00.Framework\\02.Core\\CTaxCalculator.Framework.Core.Domain\\CTaxCalculator.Framework.Core.Domain.csproj"
+              },
+              "C:\\Users\\ArkaSoftware\\source\\repos\\CTaxCalculator\\00.Framework\\02.Core\\CTaxCalculator.Framework.Core.RequestResponse\\CTaxCalculator.Framework.Core.RequestResponse.csproj": {
+                "projectPath": "C:\\Users\\ArkaSoftware\\source\\repos\\CTaxCalculator\\00.Framework\\02.Core\\CTaxCalculator.Framework.Core.RequestResponse\\CTaxCalculator.Framework.Core.RequestResponse.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "ArkaSoftware.Extensions.DependentyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[1.0.1, )"
+            },
+            "ArkaSoftware.Extensions.Logger.Abstractions": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "ArkaSoftware.Extensions.Serializers.Abstractions": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "ArkaSoftware.Extensions.Translations.Abstractions": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[11.3.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": {
+              "target": "Package",
+              "version": "[8.0.6, )"
+            },
+            "Microsoft.Data.SqlClient": {
+              "target": "Package",
+              "version": "[5.2.1, )"
+            },
+            "Microsoft.Extensions.Caching.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.6, )"
+            },
+            "Microsoft.Extensions.Caching.StackExchangeRedis": {
+              "target": "Package",
+              "version": "[8.0.6, )"
+            },
+            "Microsoft.Extensions.DependencyModel": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Scrutor": {
+              "target": "Package",
+              "version": "[4.2.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\ArkaSoftware\\source\\repos\\CTaxCalculator\\01.SRC\\01.Core\\CTaxCalculator.Src.Core.ApplicationServices\\CTaxCalculator.Src.Core.ApplicationServices.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ArkaSoftware\\source\\repos\\CTaxCalculator\\01.SRC\\01.Core\\CTaxCalculator.Src.Core.ApplicationServices\\CTaxCalculator.Src.Core.ApplicationServices.csproj",
+        "projectName": "CTaxCalculator.Src.Core.ApplicationServices",
+        "projectPath": "C:\\Users\\ArkaSoftware\\source\\repos\\CTaxCalculator\\01.SRC\\01.Core\\CTaxCalculator.Src.Core.ApplicationServices\\CTaxCalculator.Src.Core.ApplicationServices.csproj",
+        "packagesPath": "C:\\Users\\ArkaSoftware\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ArkaSoftware\\source\\repos\\CTaxCalculator\\01.SRC\\01.Core\\CTaxCalculator.Src.Core.ApplicationServices\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ArkaSoftware\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\ArkaSoftware\\source\\repos\\CTaxCalculator\\00.Framework\\01.Utilities\\CTaxCalculator.Framework.Utilities.OutServices\\CTaxCalculator.Framework.Utilities.OutServices.csproj": {
+                "projectPath": "C:\\Users\\ArkaSoftware\\source\\repos\\CTaxCalculator\\00.Framework\\01.Utilities\\CTaxCalculator.Framework.Utilities.OutServices\\CTaxCalculator.Framework.Utilities.OutServices.csproj"
+              },
+              "C:\\Users\\ArkaSoftware\\source\\repos\\CTaxCalculator\\00.Framework\\02.Core\\CTaxCalculator.Framework.Core.ApplicationServices\\CTaxCalculator.Framework.Core.ApplicationServices.csproj": {
+                "projectPath": "C:\\Users\\ArkaSoftware\\source\\repos\\CTaxCalculator\\00.Framework\\02.Core\\CTaxCalculator.Framework.Core.ApplicationServices\\CTaxCalculator.Framework.Core.ApplicationServices.csproj"
+              },
+              "C:\\Users\\ArkaSoftware\\source\\repos\\CTaxCalculator\\01.SRC\\01.Core\\CTaxCalculator.Src.Core.Contracts\\CTaxCalculator.Src.Core.Contracts.csproj": {
+                "projectPath": "C:\\Users\\ArkaSoftware\\source\\repos\\CTaxCalculator\\01.SRC\\01.Core\\CTaxCalculator.Src.Core.Contracts\\CTaxCalculator.Src.Core.Contracts.csproj"
+              },
+              "C:\\Users\\ArkaSoftware\\source\\repos\\CTaxCalculator\\01.SRC\\01.Core\\CTaxCalculator.Src.Core.RequestResponse\\CTaxCalculator.Src.Core.RequestResponse.csproj": {
+                "projectPath": "C:\\Users\\ArkaSoftware\\source\\repos\\CTaxCalculator\\01.SRC\\01.Core\\CTaxCalculator.Src.Core.RequestResponse\\CTaxCalculator.Src.Core.RequestResponse.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\ArkaSoftware\\source\\repos\\CTaxCalculator\\01.SRC\\01.Core\\CTaxCalculator.Src.Core.Contracts\\CTaxCalculator.Src.Core.Contracts.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ArkaSoftware\\source\\repos\\CTaxCalculator\\01.SRC\\01.Core\\CTaxCalculator.Src.Core.Contracts\\CTaxCalculator.Src.Core.Contracts.csproj",
+        "projectName": "CTaxCalculator.Src.Core.Contracts",
+        "projectPath": "C:\\Users\\ArkaSoftware\\source\\repos\\CTaxCalculator\\01.SRC\\01.Core\\CTaxCalculator.Src.Core.Contracts\\CTaxCalculator.Src.Core.Contracts.csproj",
+        "packagesPath": "C:\\Users\\ArkaSoftware\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ArkaSoftware\\source\\repos\\CTaxCalculator\\01.SRC\\01.Core\\CTaxCalculator.Src.Core.Contracts\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ArkaSoftware\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\ArkaSoftware\\source\\repos\\CTaxCalculator\\00.Framework\\02.Core\\CTaxCalculator.Framework.Core.Contracts\\CTaxCalculator.Framework.Core.Contracts.csproj": {
+                "projectPath": "C:\\Users\\ArkaSoftware\\source\\repos\\CTaxCalculator\\00.Framework\\02.Core\\CTaxCalculator.Framework.Core.Contracts\\CTaxCalculator.Framework.Core.Contracts.csproj"
+              },
+              "C:\\Users\\ArkaSoftware\\source\\repos\\CTaxCalculator\\01.SRC\\01.Core\\CTaxCalculator.Src.Core.Domain\\CTaxCalculator.Src.Core.Domain.csproj": {
+                "projectPath": "C:\\Users\\ArkaSoftware\\source\\repos\\CTaxCalculator\\01.SRC\\01.Core\\CTaxCalculator.Src.Core.Domain\\CTaxCalculator.Src.Core.Domain.csproj"
+              },
+              "C:\\Users\\ArkaSoftware\\source\\repos\\CTaxCalculator\\01.SRC\\01.Core\\CTaxCalculator.Src.Core.RequestResponse\\CTaxCalculator.Src.Core.RequestResponse.csproj": {
+                "projectPath": "C:\\Users\\ArkaSoftware\\source\\repos\\CTaxCalculator\\01.SRC\\01.Core\\CTaxCalculator.Src.Core.RequestResponse\\CTaxCalculator.Src.Core.RequestResponse.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\ArkaSoftware\\source\\repos\\CTaxCalculator\\01.SRC\\01.Core\\CTaxCalculator.Src.Core.Domain\\CTaxCalculator.Src.Core.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ArkaSoftware\\source\\repos\\CTaxCalculator\\01.SRC\\01.Core\\CTaxCalculator.Src.Core.Domain\\CTaxCalculator.Src.Core.Domain.csproj",
+        "projectName": "CTaxCalculator.Src.Core.Domain",
+        "projectPath": "C:\\Users\\ArkaSoftware\\source\\repos\\CTaxCalculator\\01.SRC\\01.Core\\CTaxCalculator.Src.Core.Domain\\CTaxCalculator.Src.Core.Domain.csproj",
+        "packagesPath": "C:\\Users\\ArkaSoftware\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ArkaSoftware\\source\\repos\\CTaxCalculator\\01.SRC\\01.Core\\CTaxCalculator.Src.Core.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ArkaSoftware\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\ArkaSoftware\\source\\repos\\CTaxCalculator\\00.Framework\\02.Core\\CTaxCalculator.Framework.Core.Domain\\CTaxCalculator.Framework.Core.Domain.csproj": {
+                "projectPath": "C:\\Users\\ArkaSoftware\\source\\repos\\CTaxCalculator\\00.Framework\\02.Core\\CTaxCalculator.Framework.Core.Domain\\CTaxCalculator.Framework.Core.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\ArkaSoftware\\source\\repos\\CTaxCalculator\\01.SRC\\01.Core\\CTaxCalculator.Src.Core.RequestResponse\\CTaxCalculator.Src.Core.RequestResponse.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ArkaSoftware\\source\\repos\\CTaxCalculator\\01.SRC\\01.Core\\CTaxCalculator.Src.Core.RequestResponse\\CTaxCalculator.Src.Core.RequestResponse.csproj",
+        "projectName": "CTaxCalculator.Src.Core.RequestResponse",
+        "projectPath": "C:\\Users\\ArkaSoftware\\source\\repos\\CTaxCalculator\\01.SRC\\01.Core\\CTaxCalculator.Src.Core.RequestResponse\\CTaxCalculator.Src.Core.RequestResponse.csproj",
+        "packagesPath": "C:\\Users\\ArkaSoftware\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ArkaSoftware\\source\\repos\\CTaxCalculator\\01.SRC\\01.Core\\CTaxCalculator.Src.Core.RequestResponse\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ArkaSoftware\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\ArkaSoftware\\source\\repos\\CTaxCalculator\\00.Framework\\02.Core\\CTaxCalculator.Framework.Core.RequestResponse\\CTaxCalculator.Framework.Core.RequestResponse.csproj": {
+                "projectPath": "C:\\Users\\ArkaSoftware\\source\\repos\\CTaxCalculator\\00.Framework\\02.Core\\CTaxCalculator.Framework.Core.RequestResponse\\CTaxCalculator.Framework.Core.RequestResponse.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "ArkaSoftware.Extensions.Translations.Abstractions": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.9.2, )"
+            },
+            "Swashbuckle.AspNetCore.Annotations": {
+              "target": "Package",
+              "version": "[6.8.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\ArkaSoftware\\source\\repos\\CTaxCalculator\\01.SRC\\02.Infrastructure\\MSSQLData\\CTaxCalculator.Src.Infra.MSSQLData.SQLCommands\\CTaxCalculator.Src.Infra.MSSQLData.SQLCommands.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ArkaSoftware\\source\\repos\\CTaxCalculator\\01.SRC\\02.Infrastructure\\MSSQLData\\CTaxCalculator.Src.Infra.MSSQLData.SQLCommands\\CTaxCalculator.Src.Infra.MSSQLData.SQLCommands.csproj",
+        "projectName": "CTaxCalculator.Src.Infra.MSSQLData.SQLCommands",
+        "projectPath": "C:\\Users\\ArkaSoftware\\source\\repos\\CTaxCalculator\\01.SRC\\02.Infrastructure\\MSSQLData\\CTaxCalculator.Src.Infra.MSSQLData.SQLCommands\\CTaxCalculator.Src.Infra.MSSQLData.SQLCommands.csproj",
+        "packagesPath": "C:\\Users\\ArkaSoftware\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ArkaSoftware\\source\\repos\\CTaxCalculator\\01.SRC\\02.Infrastructure\\MSSQLData\\CTaxCalculator.Src.Infra.MSSQLData.SQLCommands\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ArkaSoftware\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\ArkaSoftware\\source\\repos\\CTaxCalculator\\00.Framework\\03.Infrastructure\\Data\\CTaxCalculator.Framework.Infra.Data.SQLCommands\\CTaxCalculator.Framework.Infra.Data.SQLCommands.csproj": {
+                "projectPath": "C:\\Users\\ArkaSoftware\\source\\repos\\CTaxCalculator\\00.Framework\\03.Infrastructure\\Data\\CTaxCalculator.Framework.Infra.Data.SQLCommands\\CTaxCalculator.Framework.Infra.Data.SQLCommands.csproj"
+              },
+              "C:\\Users\\ArkaSoftware\\source\\repos\\CTaxCalculator\\01.SRC\\01.Core\\CTaxCalculator.Src.Core.Contracts\\CTaxCalculator.Src.Core.Contracts.csproj": {
+                "projectPath": "C:\\Users\\ArkaSoftware\\source\\repos\\CTaxCalculator\\01.SRC\\01.Core\\CTaxCalculator.Src.Core.Contracts\\CTaxCalculator.Src.Core.Contracts.csproj"
+              },
+              "C:\\Users\\ArkaSoftware\\source\\repos\\CTaxCalculator\\01.SRC\\01.Core\\CTaxCalculator.Src.Core.Domain\\CTaxCalculator.Src.Core.Domain.csproj": {
+                "projectPath": "C:\\Users\\ArkaSoftware\\source\\repos\\CTaxCalculator\\01.SRC\\01.Core\\CTaxCalculator.Src.Core.Domain\\CTaxCalculator.Src.Core.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "CsvHelper": {
+              "target": "Package",
+              "version": "[33.0.1, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\ArkaSoftware\\source\\repos\\CTaxCalculator\\01.SRC\\02.Infrastructure\\MSSQLData\\CTaxCalculator.Src.Infra.MSSQLData.SQLQueries\\CTaxCalculator.Src.Infra.MSSQLData.SQLQueries.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ArkaSoftware\\source\\repos\\CTaxCalculator\\01.SRC\\02.Infrastructure\\MSSQLData\\CTaxCalculator.Src.Infra.MSSQLData.SQLQueries\\CTaxCalculator.Src.Infra.MSSQLData.SQLQueries.csproj",
+        "projectName": "CTaxCalculator.Src.Infra.MSSQLData.SQLQueries",
+        "projectPath": "C:\\Users\\ArkaSoftware\\source\\repos\\CTaxCalculator\\01.SRC\\02.Infrastructure\\MSSQLData\\CTaxCalculator.Src.Infra.MSSQLData.SQLQueries\\CTaxCalculator.Src.Infra.MSSQLData.SQLQueries.csproj",
+        "packagesPath": "C:\\Users\\ArkaSoftware\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ArkaSoftware\\source\\repos\\CTaxCalculator\\01.SRC\\02.Infrastructure\\MSSQLData\\CTaxCalculator.Src.Infra.MSSQLData.SQLQueries\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ArkaSoftware\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\ArkaSoftware\\source\\repos\\CTaxCalculator\\00.Framework\\03.Infrastructure\\Data\\CTaxCalculator.Framework.Infra.Data.SQLQueries\\CTaxCalculator.Framework.Infra.Data.SQLQueries.csproj": {
+                "projectPath": "C:\\Users\\ArkaSoftware\\source\\repos\\CTaxCalculator\\00.Framework\\03.Infrastructure\\Data\\CTaxCalculator.Framework.Infra.Data.SQLQueries\\CTaxCalculator.Framework.Infra.Data.SQLQueries.csproj"
+              },
+              "C:\\Users\\ArkaSoftware\\source\\repos\\CTaxCalculator\\01.SRC\\01.Core\\CTaxCalculator.Src.Core.Contracts\\CTaxCalculator.Src.Core.Contracts.csproj": {
+                "projectPath": "C:\\Users\\ArkaSoftware\\source\\repos\\CTaxCalculator\\01.SRC\\01.Core\\CTaxCalculator.Src.Core.Contracts\\CTaxCalculator.Src.Core.Contracts.csproj"
+              },
+              "C:\\Users\\ArkaSoftware\\source\\repos\\CTaxCalculator\\01.SRC\\01.Core\\CTaxCalculator.Src.Core.Domain\\CTaxCalculator.Src.Core.Domain.csproj": {
+                "projectPath": "C:\\Users\\ArkaSoftware\\source\\repos\\CTaxCalculator\\01.SRC\\01.Core\\CTaxCalculator.Src.Core.Domain\\CTaxCalculator.Src.Core.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\ArkaSoftware\\source\\repos\\CTaxCalculator\\01.SRC\\03.Endpoints\\CTaxCalculator.Src.Endpoints.API\\CTaxCalculator.Src.Endpoints.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ArkaSoftware\\source\\repos\\CTaxCalculator\\01.SRC\\03.Endpoints\\CTaxCalculator.Src.Endpoints.API\\CTaxCalculator.Src.Endpoints.API.csproj",
+        "projectName": "CTaxCalculator.Src.Endpoints.API",
+        "projectPath": "C:\\Users\\ArkaSoftware\\source\\repos\\CTaxCalculator\\01.SRC\\03.Endpoints\\CTaxCalculator.Src.Endpoints.API\\CTaxCalculator.Src.Endpoints.API.csproj",
+        "packagesPath": "C:\\Users\\ArkaSoftware\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ArkaSoftware\\source\\repos\\CTaxCalculator\\01.SRC\\03.Endpoints\\CTaxCalculator.Src.Endpoints.API\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ArkaSoftware\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\ArkaSoftware\\source\\repos\\CTaxCalculator\\00.Framework\\04.Endpoints\\CTaxCalculator.Framework.Endpoints.Web\\CTaxCalculator.Framework.Endpoints.Web.csproj": {
+                "projectPath": "C:\\Users\\ArkaSoftware\\source\\repos\\CTaxCalculator\\00.Framework\\04.Endpoints\\CTaxCalculator.Framework.Endpoints.Web\\CTaxCalculator.Framework.Endpoints.Web.csproj"
+              },
+              "C:\\Users\\ArkaSoftware\\source\\repos\\CTaxCalculator\\01.SRC\\01.Core\\CTaxCalculator.Src.Core.ApplicationServices\\CTaxCalculator.Src.Core.ApplicationServices.csproj": {
+                "projectPath": "C:\\Users\\ArkaSoftware\\source\\repos\\CTaxCalculator\\01.SRC\\01.Core\\CTaxCalculator.Src.Core.ApplicationServices\\CTaxCalculator.Src.Core.ApplicationServices.csproj"
+              },
+              "C:\\Users\\ArkaSoftware\\source\\repos\\CTaxCalculator\\01.SRC\\01.Core\\CTaxCalculator.Src.Core.Contracts\\CTaxCalculator.Src.Core.Contracts.csproj": {
+                "projectPath": "C:\\Users\\ArkaSoftware\\source\\repos\\CTaxCalculator\\01.SRC\\01.Core\\CTaxCalculator.Src.Core.Contracts\\CTaxCalculator.Src.Core.Contracts.csproj"
+              },
+              "C:\\Users\\ArkaSoftware\\source\\repos\\CTaxCalculator\\01.SRC\\01.Core\\CTaxCalculator.Src.Core.Domain\\CTaxCalculator.Src.Core.Domain.csproj": {
+                "projectPath": "C:\\Users\\ArkaSoftware\\source\\repos\\CTaxCalculator\\01.SRC\\01.Core\\CTaxCalculator.Src.Core.Domain\\CTaxCalculator.Src.Core.Domain.csproj"
+              },
+              "C:\\Users\\ArkaSoftware\\source\\repos\\CTaxCalculator\\01.SRC\\02.Infrastructure\\MSSQLData\\CTaxCalculator.Src.Infra.MSSQLData.SQLCommands\\CTaxCalculator.Src.Infra.MSSQLData.SQLCommands.csproj": {
+                "projectPath": "C:\\Users\\ArkaSoftware\\source\\repos\\CTaxCalculator\\01.SRC\\02.Infrastructure\\MSSQLData\\CTaxCalculator.Src.Infra.MSSQLData.SQLCommands\\CTaxCalculator.Src.Infra.MSSQLData.SQLCommands.csproj"
+              },
+              "C:\\Users\\ArkaSoftware\\source\\repos\\CTaxCalculator\\01.SRC\\02.Infrastructure\\MSSQLData\\CTaxCalculator.Src.Infra.MSSQLData.SQLQueries\\CTaxCalculator.Src.Infra.MSSQLData.SQLQueries.csproj": {
+                "projectPath": "C:\\Users\\ArkaSoftware\\source\\repos\\CTaxCalculator\\01.SRC\\02.Infrastructure\\MSSQLData\\CTaxCalculator.Src.Infra.MSSQLData.SQLQueries\\CTaxCalculator.Src.Infra.MSSQLData.SQLQueries.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "ArkaSoftware.Extensions.Caching.Distributed.InMemory": {
+              "target": "Package",
+              "version": "[1.0.2, )"
+            },
+            "ArkaSoftware.Extensions.ObjectMappers.AutoMapper": {
+              "target": "Package",
+              "version": "[1.0.1, )"
+            },
+            "ArkaSoftware.Extensions.Serializers.Microsoft": {
+              "target": "Package",
+              "version": "[1.0.1, )"
+            },
+            "ArkaSoftware.Extensions.Translations.Parrot": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "ArkaSoftware.Extensions.UsersManagement": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "ArkaSoftware.Utilities.Authentication.APIAuthentication": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "ArkaSoftware.Utilities.SeriLogRegisteration": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "ArkaSoftware.Utilities.Swagger.Registration": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.0, )"
+            },
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.1.35, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.6, )"
+            },
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.19.6, )"
+            },
+            "Serilog": {
+              "target": "Package",
+              "version": "[4.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

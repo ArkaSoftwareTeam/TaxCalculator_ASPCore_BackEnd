@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "CTaxCalculator.Src.Core.Domain/1.0.0": {
+        "dependencies": {
+          "CTaxCalculator.Framework.Core.Domain": "1.0.0"
+        },
+        "runtime": {
+          "CTaxCalculator.Src.Core.Domain.dll": {}
+        }
+      },
+      "CTaxCalculator.Framework.Core.Domain/1.0.0": {
+        "runtime": {
+          "CTaxCalculator.Framework.Core.Domain.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CTaxCalculator.Src.Core.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CTaxCalculator.Framework.Core.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

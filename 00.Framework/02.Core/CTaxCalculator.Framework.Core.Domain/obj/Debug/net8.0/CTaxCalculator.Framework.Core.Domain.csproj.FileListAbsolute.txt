@@ -1,0 +1,11 @@
+C:\Users\ArkaSoftware\source\repos\CTaxCalculator\00.Framework\02.Core\CTaxCalculator.Framework.Core.Domain\bin\Debug\net8.0\CTaxCalculator.Framework.Core.Domain.deps.json
+C:\Users\ArkaSoftware\source\repos\CTaxCalculator\00.Framework\02.Core\CTaxCalculator.Framework.Core.Domain\bin\Debug\net8.0\CTaxCalculator.Framework.Core.Domain.dll
+C:\Users\ArkaSoftware\source\repos\CTaxCalculator\00.Framework\02.Core\CTaxCalculator.Framework.Core.Domain\bin\Debug\net8.0\CTaxCalculator.Framework.Core.Domain.pdb
+C:\Users\ArkaSoftware\source\repos\CTaxCalculator\00.Framework\02.Core\CTaxCalculator.Framework.Core.Domain\obj\Debug\net8.0\CTaxCalculator.Framework.Core.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ArkaSoftware\source\repos\CTaxCalculator\00.Framework\02.Core\CTaxCalculator.Framework.Core.Domain\obj\Debug\net8.0\CTaxCalculator.Framework.Core.Domain.AssemblyInfoInputs.cache
+C:\Users\ArkaSoftware\source\repos\CTaxCalculator\00.Framework\02.Core\CTaxCalculator.Framework.Core.Domain\obj\Debug\net8.0\CTaxCalculator.Framework.Core.Domain.AssemblyInfo.cs
+C:\Users\ArkaSoftware\source\repos\CTaxCalculator\00.Framework\02.Core\CTaxCalculator.Framework.Core.Domain\obj\Debug\net8.0\CTaxCalculator.Framework.Core.Domain.csproj.CoreCompileInputs.cache
+C:\Users\ArkaSoftware\source\repos\CTaxCalculator\00.Framework\02.Core\CTaxCalculator.Framework.Core.Domain\obj\Debug\net8.0\CTaxCalculator.Framework.Core.Domain.dll
+C:\Users\ArkaSoftware\source\repos\CTaxCalculator\00.Framework\02.Core\CTaxCalculator.Framework.Core.Domain\obj\Debug\net8.0\refint\CTaxCalculator.Framework.Core.Domain.dll
+C:\Users\ArkaSoftware\source\repos\CTaxCalculator\00.Framework\02.Core\CTaxCalculator.Framework.Core.Domain\obj\Debug\net8.0\CTaxCalculator.Framework.Core.Domain.pdb
+C:\Users\ArkaSoftware\source\repos\CTaxCalculator\00.Framework\02.Core\CTaxCalculator.Framework.Core.Domain\obj\Debug\net8.0\ref\CTaxCalculator.Framework.Core.Domain.dll

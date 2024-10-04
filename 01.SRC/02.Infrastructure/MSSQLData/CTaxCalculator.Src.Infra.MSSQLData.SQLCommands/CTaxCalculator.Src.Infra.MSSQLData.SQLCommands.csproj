@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Configurations\UsersConfigure\**" />
+    <EmbeddedResource Remove="Configurations\UsersConfigure\**" />
+    <None Remove="Configurations\UsersConfigure\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CsvHelper" Version="33.0.1" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\..\00.Framework\03.Infrastructure\Data\CTaxCalculator.Framework.Infra.Data.SQLCommands\CTaxCalculator.Framework.Infra.Data.SQLCommands.csproj" />
+    <ProjectReference Include="..\..\..\01.Core\CTaxCalculator.Src.Core.Contracts\CTaxCalculator.Src.Core.Contracts.csproj" />
+    <ProjectReference Include="..\..\..\01.Core\CTaxCalculator.Src.Core.Domain\CTaxCalculator.Src.Core.Domain.csproj" />
+  </ItemGroup>
+
+</Project>

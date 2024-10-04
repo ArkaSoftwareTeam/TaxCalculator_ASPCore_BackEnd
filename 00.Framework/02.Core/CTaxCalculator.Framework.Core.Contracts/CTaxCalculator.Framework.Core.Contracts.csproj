@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CTaxCalculator.Framework.Core.Domain\CTaxCalculator.Framework.Core.Domain.csproj" />
+    <ProjectReference Include="..\CTaxCalculator.Framework.Core.RequestResponse\CTaxCalculator.Framework.Core.RequestResponse.csproj" />
+  </ItemGroup>
+
+</Project>

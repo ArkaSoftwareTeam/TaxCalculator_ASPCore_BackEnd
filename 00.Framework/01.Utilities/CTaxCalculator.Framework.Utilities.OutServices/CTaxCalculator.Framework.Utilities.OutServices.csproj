@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+	<ItemGroup>
+		<PackageReference Include="ArkaSoftware.Extensions.Logger.Abstractions" Version="1.0.0" />
+		<PackageReference Include="ArkaSoftware.Extensions.ObjectMappers.Abstractions" Version="1.0.1" />
+		<PackageReference Include="ArkaSoftware.Extensions.Serializers.Abstractions" Version="1.0.0" />
+		<PackageReference Include="ArkaSoftware.Extensions.Translations.Abstractions" Version="1.0.0" />
+		<PackageReference Include="ArkaSoftware.Extensions.UsersManagement.Abstractions" Version="1.0.0" />
+		<PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="8.0.0" />
+		<PackageReference Include="Snowflake.Core" Version="2.0.0" />
+	</ItemGroup>
+
+</Project>

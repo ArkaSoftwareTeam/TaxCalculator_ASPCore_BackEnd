@@ -1,0 +1,416 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0": {
+      "ArkaSoftware.Extensions.Translations.Abstractions/1.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/Extensions.Translations.Abstractions.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0/Extensions.Translations.Abstractions.dll": {}
+        }
+      },
+      "FluentValidation/11.9.2": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/FluentValidation.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/FluentValidation.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.OpenApi/1.6.14": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Microsoft.OpenApi.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.OpenApi.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Swashbuckle.AspNetCore.Annotations/6.8.1": {
+        "type": "package",
+        "dependencies": {
+          "Swashbuckle.AspNetCore.SwaggerGen": "6.8.1"
+        },
+        "compile": {
+          "lib/net8.0/Swashbuckle.AspNetCore.Annotations.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Swashbuckle.AspNetCore.Annotations.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Swashbuckle.AspNetCore.Swagger/6.8.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.OpenApi": "1.6.14"
+        },
+        "compile": {
+          "lib/net8.0/Swashbuckle.AspNetCore.Swagger.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Swashbuckle.AspNetCore.Swagger.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
+      "Swashbuckle.AspNetCore.SwaggerGen/6.8.1": {
+        "type": "package",
+        "dependencies": {
+          "Swashbuckle.AspNetCore.Swagger": "6.8.1"
+        },
+        "compile": {
+          "lib/net8.0/Swashbuckle.AspNetCore.SwaggerGen.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Swashbuckle.AspNetCore.SwaggerGen.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "CTaxCalculator.Framework.Core.Contracts/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "CTaxCalculator.Framework.Core.Domain": "1.0.0",
+          "CTaxCalculator.Framework.Core.RequestResponse": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/CTaxCalculator.Framework.Core.Contracts.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CTaxCalculator.Framework.Core.Contracts.dll": {}
+        }
+      },
+      "CTaxCalculator.Framework.Core.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/CTaxCalculator.Framework.Core.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CTaxCalculator.Framework.Core.Domain.dll": {}
+        }
+      },
+      "CTaxCalculator.Framework.Core.RequestResponse/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Swashbuckle.AspNetCore.Annotations": "6.8.1"
+        },
+        "compile": {
+          "bin/placeholder/CTaxCalculator.Framework.Core.RequestResponse.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CTaxCalculator.Framework.Core.RequestResponse.dll": {}
+        }
+      },
+      "CTaxCalculator.Src.Core.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "CTaxCalculator.Framework.Core.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/CTaxCalculator.Src.Core.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CTaxCalculator.Src.Core.Domain.dll": {}
+        }
+      },
+      "CTaxCalculator.Src.Core.RequestResponse/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "ArkaSoftware.Extensions.Translations.Abstractions": "1.0.0",
+          "CTaxCalculator.Framework.Core.RequestResponse": "1.0.0",
+          "FluentValidation": "11.9.2",
+          "Swashbuckle.AspNetCore.Annotations": "6.8.1"
+        },
+        "compile": {
+          "bin/placeholder/CTaxCalculator.Src.Core.RequestResponse.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CTaxCalculator.Src.Core.RequestResponse.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ArkaSoftware.Extensions.Translations.Abstractions/1.0.0": {
+      "sha512": "nOuUutepZR+Wpr8i3Zwl0Ks+9QnhpqLhFtemmTMGAQwW4TTrpB+QbO5S6H4AUUYVIUUcc2luDvQ1f8kWMHwCUg==",
+      "type": "package",
+      "path": "arkasoftware.extensions.translations.abstractions/1.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "README.md",
+        "arkasoftware.extensions.translations.abstractions.1.0.0.nupkg.sha512",
+        "arkasoftware.extensions.translations.abstractions.nuspec",
+        "lib/net8.0/Extensions.Translations.Abstractions.dll"
+      ]
+    },
+    "FluentValidation/11.9.2": {
+      "sha512": "XeHp9LvFvu1fsQ/NvDCymV02GOCB1nz7ZUhfpI3uMhCcHTkV1K5bMkv+Nc/kuNYyAsX5+5bcmUanIEMd5QN+Eg==",
+      "type": "package",
+      "path": "fluentvalidation/11.9.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "fluent-validation-icon.png",
+        "fluentvalidation.11.9.2.nupkg.sha512",
+        "fluentvalidation.nuspec",
+        "lib/net5.0/FluentValidation.dll",
+        "lib/net5.0/FluentValidation.xml",
+        "lib/net6.0/FluentValidation.dll",
+        "lib/net6.0/FluentValidation.xml",
+        "lib/net7.0/FluentValidation.dll",
+        "lib/net7.0/FluentValidation.xml",
+        "lib/net8.0/FluentValidation.dll",
+        "lib/net8.0/FluentValidation.xml",
+        "lib/netstandard2.0/FluentValidation.dll",
+        "lib/netstandard2.0/FluentValidation.xml",
+        "lib/netstandard2.1/FluentValidation.dll",
+        "lib/netstandard2.1/FluentValidation.xml"
+      ]
+    },
+    "Microsoft.OpenApi/1.6.14": {
+      "sha512": "tTaBT8qjk3xINfESyOPE2rIellPvB7qpVqiWiyA/lACVvz+xOGiXhFUfohcx82NLbi5avzLW0lx+s6oAqQijfw==",
+      "type": "package",
+      "path": "microsoft.openapi/1.6.14",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "lib/netstandard2.0/Microsoft.OpenApi.dll",
+        "lib/netstandard2.0/Microsoft.OpenApi.pdb",
+        "lib/netstandard2.0/Microsoft.OpenApi.xml",
+        "microsoft.openapi.1.6.14.nupkg.sha512",
+        "microsoft.openapi.nuspec"
+      ]
+    },
+    "Swashbuckle.AspNetCore.Annotations/6.8.1": {
+      "sha512": "YboZfBC5oS8VNoF/qvCQ1D5sNev7McCMX7iIecr/gaKEqJT6iHgn6YqTAQ90sjB5gsfk+hNa1nB2jdWfc5sy0g==",
+      "type": "package",
+      "path": "swashbuckle.aspnetcore.annotations/6.8.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net5.0/Swashbuckle.AspNetCore.Annotations.dll",
+        "lib/net5.0/Swashbuckle.AspNetCore.Annotations.pdb",
+        "lib/net5.0/Swashbuckle.AspNetCore.Annotations.xml",
+        "lib/net6.0/Swashbuckle.AspNetCore.Annotations.dll",
+        "lib/net6.0/Swashbuckle.AspNetCore.Annotations.pdb",
+        "lib/net6.0/Swashbuckle.AspNetCore.Annotations.xml",
+        "lib/net7.0/Swashbuckle.AspNetCore.Annotations.dll",
+        "lib/net7.0/Swashbuckle.AspNetCore.Annotations.pdb",
+        "lib/net7.0/Swashbuckle.AspNetCore.Annotations.xml",
+        "lib/net8.0/Swashbuckle.AspNetCore.Annotations.dll",
+        "lib/net8.0/Swashbuckle.AspNetCore.Annotations.pdb",
+        "lib/net8.0/Swashbuckle.AspNetCore.Annotations.xml",
+        "lib/netcoreapp3.0/Swashbuckle.AspNetCore.Annotations.dll",
+        "lib/netcoreapp3.0/Swashbuckle.AspNetCore.Annotations.pdb",
+        "lib/netcoreapp3.0/Swashbuckle.AspNetCore.Annotations.xml",
+        "lib/netstandard2.0/Swashbuckle.AspNetCore.Annotations.dll",
+        "lib/netstandard2.0/Swashbuckle.AspNetCore.Annotations.pdb",
+        "lib/netstandard2.0/Swashbuckle.AspNetCore.Annotations.xml",
+        "package-readme.md",
+        "swashbuckle.aspnetcore.annotations.6.8.1.nupkg.sha512",
+        "swashbuckle.aspnetcore.annotations.nuspec"
+      ]
+    },
+    "Swashbuckle.AspNetCore.Swagger/6.8.1": {
+      "sha512": "eOkdM4bsWBU5Ty3kWbyq5O9L+05kZT0vOdGh4a92vIb/LLQGQTPLRHXuJdnUBNIPNC8XfKWfSbtRfqzI6nnbqw==",
+      "type": "package",
+      "path": "swashbuckle.aspnetcore.swagger/6.8.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net5.0/Swashbuckle.AspNetCore.Swagger.dll",
+        "lib/net5.0/Swashbuckle.AspNetCore.Swagger.pdb",
+        "lib/net5.0/Swashbuckle.AspNetCore.Swagger.xml",
+        "lib/net6.0/Swashbuckle.AspNetCore.Swagger.dll",
+        "lib/net6.0/Swashbuckle.AspNetCore.Swagger.pdb",
+        "lib/net6.0/Swashbuckle.AspNetCore.Swagger.xml",
+        "lib/net7.0/Swashbuckle.AspNetCore.Swagger.dll",
+        "lib/net7.0/Swashbuckle.AspNetCore.Swagger.pdb",
+        "lib/net7.0/Swashbuckle.AspNetCore.Swagger.xml",
+        "lib/net8.0/Swashbuckle.AspNetCore.Swagger.dll",
+        "lib/net8.0/Swashbuckle.AspNetCore.Swagger.pdb",
+        "lib/net8.0/Swashbuckle.AspNetCore.Swagger.xml",
+        "lib/netcoreapp3.0/Swashbuckle.AspNetCore.Swagger.dll",
+        "lib/netcoreapp3.0/Swashbuckle.AspNetCore.Swagger.pdb",
+        "lib/netcoreapp3.0/Swashbuckle.AspNetCore.Swagger.xml",
+        "lib/netstandard2.0/Swashbuckle.AspNetCore.Swagger.dll",
+        "lib/netstandard2.0/Swashbuckle.AspNetCore.Swagger.pdb",
+        "lib/netstandard2.0/Swashbuckle.AspNetCore.Swagger.xml",
+        "package-readme.md",
+        "swashbuckle.aspnetcore.swagger.6.8.1.nupkg.sha512",
+        "swashbuckle.aspnetcore.swagger.nuspec"
+      ]
+    },
+    "Swashbuckle.AspNetCore.SwaggerGen/6.8.1": {
+      "sha512": "TjBPxsN0HeJzxEXZYeDXBNNMSyhg+TYXtkbwX+Cn8GH/y5ZeoB/chw0p71kRo5tR2sNshbKwL24T6f9pTF9PHg==",
+      "type": "package",
+      "path": "swashbuckle.aspnetcore.swaggergen/6.8.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net5.0/Swashbuckle.AspNetCore.SwaggerGen.dll",
+        "lib/net5.0/Swashbuckle.AspNetCore.SwaggerGen.pdb",
+        "lib/net5.0/Swashbuckle.AspNetCore.SwaggerGen.xml",
+        "lib/net6.0/Swashbuckle.AspNetCore.SwaggerGen.dll",
+        "lib/net6.0/Swashbuckle.AspNetCore.SwaggerGen.pdb",
+        "lib/net6.0/Swashbuckle.AspNetCore.SwaggerGen.xml",
+        "lib/net7.0/Swashbuckle.AspNetCore.SwaggerGen.dll",
+        "lib/net7.0/Swashbuckle.AspNetCore.SwaggerGen.pdb",
+        "lib/net7.0/Swashbuckle.AspNetCore.SwaggerGen.xml",
+        "lib/net8.0/Swashbuckle.AspNetCore.SwaggerGen.dll",
+        "lib/net8.0/Swashbuckle.AspNetCore.SwaggerGen.pdb",
+        "lib/net8.0/Swashbuckle.AspNetCore.SwaggerGen.xml",
+        "lib/netcoreapp3.0/Swashbuckle.AspNetCore.SwaggerGen.dll",
+        "lib/netcoreapp3.0/Swashbuckle.AspNetCore.SwaggerGen.pdb",
+        "lib/netcoreapp3.0/Swashbuckle.AspNetCore.SwaggerGen.xml",
+        "lib/netstandard2.0/Swashbuckle.AspNetCore.SwaggerGen.dll",
+        "lib/netstandard2.0/Swashbuckle.AspNetCore.SwaggerGen.pdb",
+        "lib/netstandard2.0/Swashbuckle.AspNetCore.SwaggerGen.xml",
+        "package-readme.md",
+        "swashbuckle.aspnetcore.swaggergen.6.8.1.nupkg.sha512",
+        "swashbuckle.aspnetcore.swaggergen.nuspec"
+      ]
+    },
+    "CTaxCalculator.Framework.Core.Contracts/1.0.0": {
+      "type": "project",
+      "path": "../../../00.Framework/02.Core/CTaxCalculator.Framework.Core.Contracts/CTaxCalculator.Framework.Core.Contracts.csproj",
+      "msbuildProject": "../../../00.Framework/02.Core/CTaxCalculator.Framework.Core.Contracts/CTaxCalculator.Framework.Core.Contracts.csproj"
+    },
+    "CTaxCalculator.Framework.Core.Domain/1.0.0": {
+      "type": "project",
+      "path": "../../../00.Framework/02.Core/CTaxCalculator.Framework.Core.Domain/CTaxCalculator.Framework.Core.Domain.csproj",
+      "msbuildProject": "../../../00.Framework/02.Core/CTaxCalculator.Framework.Core.Domain/CTaxCalculator.Framework.Core.Domain.csproj"
+    },
+    "CTaxCalculator.Framework.Core.RequestResponse/1.0.0": {
+      "type": "project",
+      "path": "../../../00.Framework/02.Core/CTaxCalculator.Framework.Core.RequestResponse/CTaxCalculator.Framework.Core.RequestResponse.csproj",
+      "msbuildProject": "../../../00.Framework/02.Core/CTaxCalculator.Framework.Core.RequestResponse/CTaxCalculator.Framework.Core.RequestResponse.csproj"
+    },
+    "CTaxCalculator.Src.Core.Domain/1.0.0": {
+      "type": "project",
+      "path": "../CTaxCalculator.Src.Core.Domain/CTaxCalculator.Src.Core.Domain.csproj",
+      "msbuildProject": "../CTaxCalculator.Src.Core.Domain/CTaxCalculator.Src.Core.Domain.csproj"
+    },
+    "CTaxCalculator.Src.Core.RequestResponse/1.0.0": {
+      "type": "project",
+      "path": "../CTaxCalculator.Src.Core.RequestResponse/CTaxCalculator.Src.Core.RequestResponse.csproj",
+      "msbuildProject": "../CTaxCalculator.Src.Core.RequestResponse/CTaxCalculator.Src.Core.RequestResponse.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0": [
+      "CTaxCalculator.Framework.Core.Contracts >= 1.0.0",
+      "CTaxCalculator.Src.Core.Domain >= 1.0.0",
+      "CTaxCalculator.Src.Core.RequestResponse >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\ArkaSoftware\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\ArkaSoftware\\source\\repos\\CTaxCalculator\\01.SRC\\01.Core\\CTaxCalculator.Src.Core.Contracts\\CTaxCalculator.Src.Core.Contracts.csproj",
+      "projectName": "CTaxCalculator.Src.Core.Contracts",
+      "projectPath": "C:\\Users\\ArkaSoftware\\source\\repos\\CTaxCalculator\\01.SRC\\01.Core\\CTaxCalculator.Src.Core.Contracts\\CTaxCalculator.Src.Core.Contracts.csproj",
+      "packagesPath": "C:\\Users\\ArkaSoftware\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ArkaSoftware\\source\\repos\\CTaxCalculator\\01.SRC\\01.Core\\CTaxCalculator.Src.Core.Contracts\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\ArkaSoftware\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {
+            "C:\\Users\\ArkaSoftware\\source\\repos\\CTaxCalculator\\00.Framework\\02.Core\\CTaxCalculator.Framework.Core.Contracts\\CTaxCalculator.Framework.Core.Contracts.csproj": {
+              "projectPath": "C:\\Users\\ArkaSoftware\\source\\repos\\CTaxCalculator\\00.Framework\\02.Core\\CTaxCalculator.Framework.Core.Contracts\\CTaxCalculator.Framework.Core.Contracts.csproj"
+            },
+            "C:\\Users\\ArkaSoftware\\source\\repos\\CTaxCalculator\\01.SRC\\01.Core\\CTaxCalculator.Src.Core.Domain\\CTaxCalculator.Src.Core.Domain.csproj": {
+              "projectPath": "C:\\Users\\ArkaSoftware\\source\\repos\\CTaxCalculator\\01.SRC\\01.Core\\CTaxCalculator.Src.Core.Domain\\CTaxCalculator.Src.Core.Domain.csproj"
+            },
+            "C:\\Users\\ArkaSoftware\\source\\repos\\CTaxCalculator\\01.SRC\\01.Core\\CTaxCalculator.Src.Core.RequestResponse\\CTaxCalculator.Src.Core.RequestResponse.csproj": {
+              "projectPath": "C:\\Users\\ArkaSoftware\\source\\repos\\CTaxCalculator\\01.SRC\\01.Core\\CTaxCalculator.Src.Core.RequestResponse\\CTaxCalculator.Src.Core.RequestResponse.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      }
+    },
+    "frameworks": {
+      "net8.0": {
+        "targetAlias": "net8.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

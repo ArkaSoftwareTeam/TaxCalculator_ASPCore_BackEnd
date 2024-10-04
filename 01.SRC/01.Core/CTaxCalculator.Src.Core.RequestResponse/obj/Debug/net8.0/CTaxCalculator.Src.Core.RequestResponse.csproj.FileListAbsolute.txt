@@ -1,0 +1,15 @@
+C:\Users\ArkaSoftware\source\repos\CTaxCalculator\01.SRC\01.Core\CTaxCalculator.Src.Core.RequestResponse\bin\Debug\net8.0\CTaxCalculator.Src.Core.RequestResponse.deps.json
+C:\Users\ArkaSoftware\source\repos\CTaxCalculator\01.SRC\01.Core\CTaxCalculator.Src.Core.RequestResponse\bin\Debug\net8.0\CTaxCalculator.Src.Core.RequestResponse.dll
+C:\Users\ArkaSoftware\source\repos\CTaxCalculator\01.SRC\01.Core\CTaxCalculator.Src.Core.RequestResponse\bin\Debug\net8.0\CTaxCalculator.Src.Core.RequestResponse.pdb
+C:\Users\ArkaSoftware\source\repos\CTaxCalculator\01.SRC\01.Core\CTaxCalculator.Src.Core.RequestResponse\bin\Debug\net8.0\CTaxCalculator.Framework.Core.RequestResponse.dll
+C:\Users\ArkaSoftware\source\repos\CTaxCalculator\01.SRC\01.Core\CTaxCalculator.Src.Core.RequestResponse\bin\Debug\net8.0\CTaxCalculator.Framework.Core.RequestResponse.pdb
+C:\Users\ArkaSoftware\source\repos\CTaxCalculator\01.SRC\01.Core\CTaxCalculator.Src.Core.RequestResponse\obj\Debug\net8.0\CTaxCalculator.Src.Core.RequestResponse.csproj.AssemblyReference.cache
+C:\Users\ArkaSoftware\source\repos\CTaxCalculator\01.SRC\01.Core\CTaxCalculator.Src.Core.RequestResponse\obj\Debug\net8.0\CTaxCalculator.Src.Core.RequestResponse.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ArkaSoftware\source\repos\CTaxCalculator\01.SRC\01.Core\CTaxCalculator.Src.Core.RequestResponse\obj\Debug\net8.0\CTaxCalculator.Src.Core.RequestResponse.AssemblyInfoInputs.cache
+C:\Users\ArkaSoftware\source\repos\CTaxCalculator\01.SRC\01.Core\CTaxCalculator.Src.Core.RequestResponse\obj\Debug\net8.0\CTaxCalculator.Src.Core.RequestResponse.AssemblyInfo.cs
+C:\Users\ArkaSoftware\source\repos\CTaxCalculator\01.SRC\01.Core\CTaxCalculator.Src.Core.RequestResponse\obj\Debug\net8.0\CTaxCalculator.Src.Core.RequestResponse.csproj.CoreCompileInputs.cache
+C:\Users\ArkaSoftware\source\repos\CTaxCalculator\01.SRC\01.Core\CTaxCalculator.Src.Core.RequestResponse\obj\Debug\net8.0\CTaxCalc.151ADF5A.Up2Date
+C:\Users\ArkaSoftware\source\repos\CTaxCalculator\01.SRC\01.Core\CTaxCalculator.Src.Core.RequestResponse\obj\Debug\net8.0\CTaxCalculator.Src.Core.RequestResponse.dll
+C:\Users\ArkaSoftware\source\repos\CTaxCalculator\01.SRC\01.Core\CTaxCalculator.Src.Core.RequestResponse\obj\Debug\net8.0\refint\CTaxCalculator.Src.Core.RequestResponse.dll
+C:\Users\ArkaSoftware\source\repos\CTaxCalculator\01.SRC\01.Core\CTaxCalculator.Src.Core.RequestResponse\obj\Debug\net8.0\CTaxCalculator.Src.Core.RequestResponse.pdb
+C:\Users\ArkaSoftware\source\repos\CTaxCalculator\01.SRC\01.Core\CTaxCalculator.Src.Core.RequestResponse\obj\Debug\net8.0\ref\CTaxCalculator.Src.Core.RequestResponse.dll
