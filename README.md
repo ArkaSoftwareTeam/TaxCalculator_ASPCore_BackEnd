@@ -47,8 +47,7 @@ The application is organized into two main sections:
 2. **Configure Database:**
 - Create a new SQL Server database for the application.
 - Open appsettings.json and update the connection string:
-  ```code
+  `nano`
    "ConnectionStrings": {
   "DefaultConnection": "Server=your_server;Database=your_database;User Id=your_user;Password=your_password;"
 }
-```
