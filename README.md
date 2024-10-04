@@ -50,8 +50,9 @@ The application is organized into two main sections:
   
   ```bash
    "ConnectionStrings": {
-  "DefaultConnection": "Server=your_server;Database=your_database;User Id=your_user;Password=your_password;"
-}
+        "DefaultConnection": "Server=your_server;Database=your_database;User Id=your_user;Password=your_password;"
+        }
+  
 3. **Set Defualt Project In PackageManageConsole:**
  - In the management console , set the defualt project to the SRC/Infrastructure/Data/MSSQL/MSSQL.Commands Layer.
 
